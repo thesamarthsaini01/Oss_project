@@ -1,5 +1,5 @@
 # Open Source Audit: Python
-Student: Aryan Sharma  
+Student: Samarth Saini
 Course: Open Source Software (NGMC)  
 Software Audited: Python (PSF License)
 
