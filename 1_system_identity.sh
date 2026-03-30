@@ -1,0 +1,15 @@
+#!/bin/bash
+STUDENT_NAME="Samarth Saini"
+SOFTWARE_CHOICE="Python"
+DISTRO=$(cat /etc/os-release | grep "^PRETTY_NAME" | cut -d'"' -f2)
+echo "==========================================="
+echo "        The Open Source Audit              "
+echo "==========================================="
+echo "Auditor : $STUDENT_NAME"
+echo "Software: $SOFTWARE_CHOICE"
+echo "-------------------------------------------"
+echo "OS/Distro: $DISTRO"
+echo "Kernel   : $(uname -r)"
+echo "User     : $(whoami)"
+echo "Date     : $(date)"
+echo "==========================================="
